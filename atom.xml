@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fishlyh.github.io</id>
     <title>Gridea</title>
-    <updated>2020-04-22T04:17:48.965Z</updated>
+    <updated>2020-04-23T06:01:46.029Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fishlyh.github.io"/>
     <link rel="self" href="https://fishlyh.github.io/atom.xml"/>
@@ -11,35 +11,164 @@
     <icon>https://fishlyh.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
     <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://fishlyh.github.io/post/hello-gridea/</id>
-        <link href="https://fishlyh.github.io/post/hello-gridea/">
+        <title type="html"><![CDATA[基本的带快捷键与基本的不带快捷键的markdown书写演示]]></title>
+        <id>https://fishlyh.github.io/post/ji-ben-de-dai-kuai-jie-jian-yu-ji-ben-de-bu-dai-kuai-jie-jian-de-markdown-shu-xie-yan-shi/</id>
+        <link href="https://fishlyh.github.io/post/ji-ben-de-dai-kuai-jie-jian-yu-ji-ben-de-bu-dai-kuai-jie-jian-de-markdown-shu-xie-yan-shi/">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="http://hvenotes.fehey.com/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>𝖶𝗂𝗇𝖽𝗈𝗐𝗌</strong> 或 <strong>𝖬𝖺𝖼𝖮𝖲</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+        <updated>2020-04-23T05:58:10.000Z</updated>
+        <content type="html"><![CDATA[<p>第一次入坑gridea，给大家带来一些markdown的快捷键书写，这样我们之后书写也更为方便一些。欢迎大家指导。（注释：这是本人在typora软件上进行的测试）</p>
+<p><strong>目录</strong></p>
+<p>[toc]</p>
+<h4 id="基本的带快捷键的markdown书写演示">基本的带快捷键的markdown书写演示</h4>
+<p><code>ctrl 0</code> 到<code>ctrl 4</code> ：普通文本、一级~四级 标题</p>
+<p><code>ctrl B</code> :加粗；<strong>加粗测试</strong></p>
+<p><code>ctrl I</code> :斜体；<em>斜体测试</em></p>
+<p><code>shift alt 5</code> :删除线 ；<s>删除线测试</s></p>
+<p><code>shift ctrl tab键上面的那个键</code> ：行内代码块；<code>行内代码块测试</code></p>
+<p><code>ctrl K</code> ：超链接；<a href="">超链接测试</a> ；此外他还支持文章内锚点</p>
+<p><code>ctrl T</code> ：表格，支持拖拽移动 、网页端表格复制转换：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">标题</th>
+<th style="text-align:center">数据1</th>
+<th style="text-align:center">数据2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">表格测试</td>
+<td style="text-align:center">666</td>
+<td style="text-align:center">fishlyh</td>
+</tr>
+</tbody>
+</table>
+<p><code>ctrl shift Q</code> ：引用；</p>
+<blockquote>
+<p>我需要三件东西：爱情、友谊和图书。然而这三者之间何其相通！</p>
+<p>炽热的爱情可以充实图书的内容，图书又是人们最忠实的朋友。</p>
+<p>——蒙田</p>
+</blockquote>
+<p>（当使用引用时摁两次回车便可退出引用，或者用鼠标点击其他行即可）</p>
+<p><code>shift ctrl I</code> ：图片：</p>
+<p>![](C:\Users\LYX\Pictures\Saved Pictures\1.jpg)</p>
+<p>(图片同时支持本地图片和网络上的图片，只需复制网络上的图片地址即可)</p>
+<p>（由于上传到Github上需要下载图床，本人未下载，所以此次图片是由gridea直接插入图片得来）</p>
+<p><code>shift ctrl M</code> ：公式块，快捷输入LeTex公式；</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>&lt;</mo><mi>E</mi><mi>m</mi><mi>p</mi><mi>t</mi><mi>y</mi><mtext> </mtext><mi>M</mi><mi>a</mi><mi>t</mi><mi>h</mi><mtext> </mtext><mi>B</mi><mi>l</mi><mi>o</mi><mi>c</mi><mi>k</mi><mo>&gt;</mo></mrow><annotation encoding="application/x-tex">&lt;Empty \space Math \space Block&gt;
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">E</span><span class="mord mathdefault">m</span><span class="mord mathdefault">p</span><span class="mord mathdefault">t</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace"> </span><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="mord mathdefault">a</span><span class="mord mathdefault">t</span><span class="mord mathdefault">h</span><span class="mspace"> </span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">o</span><span class="mord mathdefault">c</span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&gt;</span></span></span></span></span></p>
+<p>（这里本人因为没有下载LeTex软件无法体现出数学公式，抱歉咯）</p>
+<h4 id="基本的不带快捷键的书写演示">基本的不带快捷键的书写演示</h4>
+<p><strong>部分功能需要现在配置文件中开启才可以使用</strong></p>
+<p><code>代码块</code>：连续按三次Tab键上的那个键，在摁一次回车即可；代码块演示（此例为C语言）</p>
+<pre><code class="language-c">include &lt;stdio.h&gt;
+int main()
+{
+    printf(&quot;hello world\n&quot;);
+    return 0;
+}
+</code></pre>
+<p>(注释：如果个人喜欢语句前面有行号的话，可以点击左上角的文件中的偏好设置，选择markdown项，在代码块这一栏目中选择<strong>显示行号</strong>即可)；</p>
+<p>(<strong>注意</strong>：代码块需要转义一下，否则会被作为无序列表处理)；</p>
+<p><code>无序、有序、任务列表</code>：</p>
+<p><strong>列表</strong>：</p>
+<p>**-（短横杠）、*（星号）、+（加号）**在摁一次空格都可以指转化成任务列表，再摁一次回车便可继续列表</p>
+<ul>
+<li>001</li>
+<li>在任务列表的基础上按一次Tab键，可获得二级列表，效果如下图所示
+<ul>
+<li>001（当然，如果再按一次回车，得到的列表还是二级列表）</li>
+<li>同样，如果再摁一次Tab键，便可得到三级列表；效果如下图所示
+<ul>
+<li>如果想要退回至二级或一级列表，只需多按几次回车即可</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>有序列表</strong></p>
+<p>在任务列表的基础上输入相应的数字，按回车它变会自动生成对应得数字：</p>
+<ul>
+<li>
+<ol>
+<li>001</li>
+<li>002</li>
+<li>003</li>
+</ol>
+</li>
+</ul>
+<p>（<strong>注意：这里在输入时要是全英输入法；在输入了1.之后再摁一次空格即可</strong>）</p>
+<p><strong>任务列表</strong></p>
+<p><strong>-（短横杠）</strong>  + <strong>空格</strong> + 中括号(<strong>中括号里面也要加空格</strong>)  +  <strong>空格</strong> ；效果演示</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6047026"><label class="task-list-item-label" for="task-item-6047026"> 今天你博学了吗</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4034369"><label class="task-list-item-label" for="task-item-4034369"> 今天你快乐了吗</label></li>
+</ul>
+<p>（注释：这里框里的勾选只需用鼠标单击即可，再单击一次便可取消，再按一次回车便会自动生成新的任务列表）；</p>
+<h3 id="额外内容接下来的功能是markdown没有的属于typora自己的一些功能主要是typora功能tql">（额外内容）接下来的功能是markdown没有的，属于typora自己的一些功能（主要是typora功能tql）</h3>
+<p><strong>需要在文件的偏好设置中自行开启</strong>   (<strong>各位看官可自行选择观看</strong>)</p>
+<ul>
+<li><strong>引用</strong></li>
+</ul>
+<p>[^数字]（语法）,放在句子的某些需要解释的词的后面，从而对这些词进行解释。用鼠标指针指向这些引用数字时，就会出现自己编译的解释内容。</p>
+<p>全国人民众志成城，共同面对面对新型肺炎<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+<ul>
+<li><strong>上标，下标</strong>（<strong>对我们写一些数学公式很管用</strong>）（<mark>注意，一下的内容中语法的写法当中都没有空格，只是因为加了空格后可以看清楚语法才加的，在我们实际操作时不要加</mark>）</li>
+</ul>
+<p>例如，X<sup>2</sup> , H<sub>2</sub>O、张三<sup>TM</sup></p>
+<p>上标语法：<strong>^ 你想填入的内容 ^</strong></p>
+<p>下标语法：<strong>~ 你想填入的内容 ~</strong></p>
+<p>（<strong>这些内容可以是字母，文字，符号等</strong>）</p>
+<ul>
+<li><strong>高亮</strong></li>
+</ul>
+<p>语法： == 你想输入的内容 ==  ；效果</p>
+<p>考试强调重点<mark>严禁舞弊，违者必罚</mark></p>
+<ul>
+<li><strong>注释</strong>  （他只会在我们文章预览的时候进行显示，在导出之后便不会再显示了）</li>
+</ul>
+<p>语法结构：&lt;!- - 你想填入的内容- -&gt;（<mark>再次强调，这些语法中间都没有括号</mark>）</p>
+<!--这一段不要显示出来-->
+<p><strong>（由于他效果图不会在导出后显示出来，所以无法展示给大家看，大家可以自己尝试一下）</strong></p>
+<ul>
+<li><strong>内联公式</strong></li>
+</ul>
+<p>语法：$$；中间填入内容；效果图</p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>e</mi><mi>x</mi></msup></mrow><annotation encoding="application/x-tex">e^x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.664392em;vertical-align:0em;"></span><span class="mord"><span class="mord mathdefault">e</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.664392em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">x</span></span></span></span></span></span></span></span></span></span></span>；<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>l</mi><mi>n</mi><mi>x</mi><mi>y</mi><mi>z</mi></mrow><annotation encoding="application/x-tex">lnxyz</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">n</span><span class="mord mathdefault">x</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span></span></span></span></p>
+<ul>
+<li><strong>分割线</strong>（<strong>其实这是markdown原本就有的内容</strong>）</li>
+</ul>
+<p>语法:---</p>
+<hr>
+<ul>
+<li><strong>emoji图标</strong></li>
+</ul>
+<p>语法： “ : ” 在再后面输入一些字母，便会自动生成一些类似的图标；效果图</p>
+<p>⏫看了上面内容的读者们都是帅哥美女</p>
+<ul>
+<li><strong>目录生产</strong></li>
+</ul>
+<p>语法：[toc]再按一次回车即可；效果图</p>
+<p>[toc]</p>
+<p>以上是本人在参考了一些资料视频后总结了一下作出的文章，希望对各位能够有所帮助；谢谢阅读！！😆</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>新型肺炎，全名新型冠状病毒肺炎，是一种急性感染性肺炎，其病原体是先前未在人类中发现的新型冠状病毒 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[test]]></title>
+        <id>https://fishlyh.github.io/post/test/</id>
+        <link href="https://fishlyh.github.io/post/test/">
+        </link>
+        <updated>2020-04-22T04:24:38.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>test</li>
+</ul>
 ]]></content>
     </entry>
 </feed>
